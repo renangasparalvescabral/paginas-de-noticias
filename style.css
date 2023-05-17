@@ -2,27 +2,102 @@
     display: grid;
     justify-content: center;
     align-content: center;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px 200px;
-
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 20px 180px 180px 180px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
 }
 
 .class-cabeca{
     grid-column: span 3;
-    background-color: aqua;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+}
+
+.cabecalho{
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    word-spacing: 28px;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%)
+}
+
+.cabecalho a:hover{
+    color: hsl(35, 77%, 62%);
 }
 
 /*............................................*/
 
 .img-web{
     grid-column: span 2;
-    background-color: blueviolet;
+}
+
+.future-h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800px;
+}
+
+/*........................................*/
+
+.text-readme{
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: 23px;
+    margin-bottom: 30px;
+}
+
+.read-link{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    background-color: black;
+    letter-spacing: 3px;
+    padding: 12px 18px;
+    text-decoration: none;
 }
 
 /*.............................................*/
 
 .class-news{
     grid-area: 2/3;
+    background-color: black;
+    height: 380px;
+}
+
+.news-h1{
+    color: hsl(35, 77%, 62%);
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 17px;
+}
+
+.class-news a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    margin-left: 16px;
+}    
+
+.class-news a:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.text-news{
+    color: hsl(233, 8%, 79%);
+    font-family: 'Inter', sans-serif;
+    margin-left: 16px;
+    font-size: 8px;
+    margin-bottom: 35px;
+    border-bottom: solid white 1px;
+    padding-bottom: 30px;
+    margin-right: 25px;
+    line-height: 1.8;
 }
 
 /*.............................................*/
@@ -33,16 +108,39 @@
 }
 
 .img-retro{
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 85px;
 }
 
-.class-retro h2{
-    font-size: 17px;
+.class-retro h1{
+    color: lightgray;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+.class-retro .h2{
+    font-size: 12px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.class-retro .h2:hover{
+    color: hsl(35, 77%, 62%);
+    
 }
 
 .class-retro p{
-    font-size: 12px;
+    font-size: 10px;
+    line-height: 1.5;
+    color: hsl(233, 13%, 63%);
+    margin-left: 15px;
 }
 
 /*.............................................*/
@@ -50,6 +148,7 @@
 .class-laptops{
     display: flex;
     grid-area: 4/2;
+    background-color: blueviolet;
 }
 
 .img-laptop{
@@ -72,6 +171,7 @@
 .class-gaming{
     display: flex;
     grid-area: 4/3;
+    background-color: blanchedalmond;
 }
 
 .img-gaming{
