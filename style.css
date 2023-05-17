@@ -1,0 +1,99 @@
+.main{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+
+}
+
+.class-cabeca{
+    grid-column: span 3;
+    background-color: aqua;
+}
+
+/*............................................*/
+
+.img-web{
+    grid-column: span 2;
+    background-color: blueviolet;
+}
+
+/*.............................................*/
+
+.class-news{
+    grid-area: 2/3;
+}
+
+/*.............................................*/
+
+.class-retro{
+    display: flex;
+    grid-area: 4/1;
+}
+
+.img-retro{
+    width: 80px;
+    height: 80px;
+}
+
+.class-retro h2{
+    font-size: 17px;
+}
+
+.class-retro p{
+    font-size: 12px;
+}
+
+/*.............................................*/
+
+.class-laptops{
+    display: flex;
+    grid-area: 4/2;
+}
+
+.img-laptop{
+    width: 80px;
+    height: 80px;
+}
+
+
+.class-laptops h2{
+    font-size: 17px;
+}
+
+.class-laptops p{
+    font-size: 12px;
+}
+
+/*..............................................*/
+
+
+.class-gaming{
+    display: flex;
+    grid-area: 4/3;
+}
+
+.img-gaming{
+    width: 80px;
+    height: 80px;
+}
+
+.class-gaming h2{
+    font-size: 17px;
+}
+
+.class-gaming p{
+    font-size: 12px;
+}
+
+
+/*..............................................*/
+
+.attribution {
+     font-size: 11px; text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
