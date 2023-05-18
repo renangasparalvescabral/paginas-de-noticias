@@ -94,10 +94,21 @@
     margin-left: 16px;
     font-size: 8px;
     margin-bottom: 35px;
-    border-bottom: solid white 1px;
     padding-bottom: 30px;
     margin-right: 25px;
     line-height: 1.8;
+}
+
+.class-news .news-text{
+    color: hsl(233, 8%, 79%);
+    font-family: 'Inter', sans-serif;
+    margin-left: 16px;
+    font-size: 8px;
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    margin-right: 25px;
+    line-height: 1.8;
+    border-bottom: solid 1px rgb(109, 108, 108);
 }
 
 /*.............................................*/
@@ -148,21 +159,42 @@
 .class-laptops{
     display: flex;
     grid-area: 4/2;
-    background-color: blueviolet;
 }
 
 .img-laptop{
-    width: 80px;
-    height: 80px;
+   width: 65px;
+   height: 85px;
 }
 
+.class-laptops h1{
+    color: lightgray;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: -3px;
+}
 
-.class-laptops h2{
-    font-size: 17px;
+.class-laptops .h2{
+   font-size: 12px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.class-laptops .h2:hover{
+    color: hsl(35, 77%, 62%);
+    
 }
 
 .class-laptops p{
-    font-size: 12px;
+    font-size: 10px;
+    line-height: 1.5;
+    color: hsl(233, 13%, 63%);
+    margin-left: 15px;
 }
 
 /*..............................................*/
@@ -171,20 +203,43 @@
 .class-gaming{
     display: flex;
     grid-area: 4/3;
-    background-color: blanchedalmond;
+    background-color: white;
 }
 
 .img-gaming{
-    width: 80px;
-    height: 80px;
+   width: 65px;
+   height: 86px;
 }
 
-.class-gaming h2{
-    font-size: 17px;
+.class-gaming h1{
+    color: lightgray;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: -3px;
+}
+
+.class-gaming .h2{
+    font-size: 12px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.class-gaming .h2:hover{
+    color: hsl(35, 77%, 62%);
+    
 }
 
 .class-gaming p{
-    font-size: 12px;
+    font-size: 10px;
+    line-height: 1.5;
+    color: hsl(233, 13%, 63%);
+    margin-left: 15px;
 }
 
 
